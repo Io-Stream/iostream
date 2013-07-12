@@ -1,4 +1,10 @@
 Iostream::Application.routes.draw do
+
+  match '/about'   => 'static_pages#admin'
+  match '/help'    => 'static_pages#help'
+  match '/faq'     => 'static_pages#faq'
+  match '/privacy' => 'static_pages#privacy'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
