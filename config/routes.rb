@@ -1,5 +1,7 @@
 Iostream::Application.routes.draw do
 
+  get "admin/index"
+
   match '/about'   => 'static_pages#about'
   match '/help'    => 'static_pages#help'
   match '/faq'     => 'static_pages#faq'
