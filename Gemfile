@@ -27,7 +27,9 @@ group :assets do
 end
 
 group :development, :test do
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'launchy'
 end
 
 gem 'jquery-rails'
