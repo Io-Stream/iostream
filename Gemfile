@@ -7,6 +7,7 @@ gem 'rails', '3.2.13'
 
 #database
 gem 'pg'
+gem 'devise'
 
 #template
 gem 'therubyracer'
