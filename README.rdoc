@@ -1,3 +1,0 @@
-== IO.Stream
-
-IO.Stream is a free and open-source platform for programmers discussion.
